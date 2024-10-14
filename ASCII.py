@@ -3,14 +3,14 @@ import numpy
 
 chars = ['@', '&', 'J', '8', '#', 'S', '%', '?', '*', '+', ';', ':', ',', '.', ' ', ' ']
 charsInverted = [' ', ' ', '.', ',', ':', ';', '+', '*', '?', '%', 'S', '#', '8', 'J', '&', '#']
-WIDTH = 100 # Set to the desired width of ASCII text output
-HEIGHT = 100 # Set to the desired height of ASCII text output
 
 image = Image.open('imaage_adress.jpg', 'r') 
 
+resizeFactor = 3.5 # Controll how much you resize the image
+
 WIDTH, HEIGHT = image.size
-WIDTH = int(WIDTH / 2.5)
-HEIGHT = int(HEIGHT / 2.5)
+WIDTH = int(WIDTH / resizeFactor)
+HEIGHT = int(HEIGHT / resizeFactor)
 
 imageG = ImageOps.grayscale(image)
 image2 = imageG.resize((WIDTH, HEIGHT))
