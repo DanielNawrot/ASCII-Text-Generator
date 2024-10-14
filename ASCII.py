@@ -3,10 +3,10 @@ import numpy
 
 chars = ['@', '&', 'J', '8', '#', 'S', '%', '?', '*', '+', ';', ':', ',', '.', ' ', ' ']
 charsInverted = [' ', ' ', '.', ',', ':', ';', '+', '*', '?', '%', 'S', '#', '8', 'J', '&', '#']
-WIDTH = 100
-HEIGHT = 100
+WIDTH = 100 # Set to the desired width of ASCII text output
+HEIGHT = 100 # Set to the desired height of ASCII text output
 
-image = Image.open('image5.jpg', 'r')
+image = Image.open('imaage_adress.jpg', 'r') 
 
 WIDTH, HEIGHT = image.size
 WIDTH = int(WIDTH / 2.5)
@@ -16,8 +16,7 @@ imageG = ImageOps.grayscale(image)
 image2 = imageG.resize((WIDTH, HEIGHT))
 #image.show()
 
-array = numpy.asarray(image2)
-#print(array)
+array = numpy.asarray(image2) # Stores the image as a two dimensional array of brightness
 
 def getChar(num):
     if num >= 0 and num <= 15:
@@ -91,6 +90,7 @@ def getCharInverted(num):
 
 for i in range(HEIGHT):
     for j in range(WIDTH):
+        # Option to print image with inverted values. Can change the quality of the outpur depending on the image.
         #print(getChar(array[i][j]), end=' ')
         print(getCharInverted(array[i][j]), end=' ')
     print("")
