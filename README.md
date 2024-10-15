@@ -3,9 +3,10 @@
 In this project, I learned some fundamental aspects of python, such as image processing and arrays. I used basic python to convert any image into an array of characters, replicating the image.
 
 Example:
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/DanielNawrot/ASCII-Text-Generator/blob/main/image5.jpg))
+![alt text](https://github.com/DanielNawrot/ASCII-Text-Generator/blob/main/image5.jpg)
 
 Results:
+
     ; ; ; ; :     . . . . , , , ,       . , , , , , , .       , ; :   . : , ; ; ; ; ; ;             . + + ; ; ; ; ; ; ; ; ;
     # 8 8 8 #     ; + + + * * * ;       * * * ? ? ? ? +       + # S   : % * # J J 8 8 8 # :           * & & & & & & J J J 8
     # 8 # # # ,   , + + + * * * ,     , * * * * ? ? ? ?         ; :     ; : ; S J 8 8 8 8 8 ;           ; J J J J J J J J 8
