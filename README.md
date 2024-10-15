@@ -1,6 +1,6 @@
 ## ASCII Text Image Generator
 
-In this project, I learned some fundamental aspects of python, such as image processing and arrays. I used basic python to convert any image into an array of characters, replicating the image.
+In this project, I learned some fundamental aspects of python, such as image processing and arrays. I used basic python to convert any image into an array of characters, replicating the image. My program allows you to control how much you resize the original image, as well as inverting the values of the image, which can provide better results for darker images.
 
 Example:
 
